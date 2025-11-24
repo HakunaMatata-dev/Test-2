@@ -1,20 +1,20 @@
-/* Description du projet */
-En tant que développeur web junior, le but est la réalisation d'une première page d'un site web via IA
+/* Project description */
+As junior web developer, the goal is to realize a web site first page with IA
 
-/* Objectif du projet */
-Réaliser la première page d'un site web de jeux de société via l'utilisation de chat GPT. Comprendre le code généré et retravailler quelques éléments afin de le personnifier
+/* Project objective */
+Objective to realize a board game web site first page with chat GPT using. Understand generated code and rework some elements to personnalize it
 
-/* Instruction d'installation locale */
-Code créé via VS code
-Utilisation de Live Server
-Mise en ligne via GitHub
+/* Local installation instructions */
+Code created with VS code
+Live Server using
+Code online with GitHub
 
-/* Technologies utilisées */
-Codage via HTML pour le texte, CSS pour la mise en forme
-Base du code créé par IA (Chat GPT)
+/* Used technologies */
+HTML coding for text, CSS for form
+Base code created by IA (Chat GPT)
 
-/* Prompt utilisé dans chat GPT */
+/* Prompt used in chat GPT */
 Gènere moi un code responsive de visual studio code pour une première page d'une boutique de jeux de sociétés
 
-/* Liens */
-Lien vers GitHub https://github.com/HakunaMatata-dev/Test-2.git
+/* Link */
+Link to GitHub https://github.com/HakunaMatata-dev/Test-2.git
