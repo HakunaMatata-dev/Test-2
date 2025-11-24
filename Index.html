@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Jeux de Société</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header + Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">🎲 LudoBoutique</div>
+            <ul class="nav-links">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Jeux</a></li>
+                <li><a href="#">Promotions</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu-btn">☰</div>
+        </nav>
+
+        <div class="hero">
+            <h1>La boutique pour les passionnés de jeux de société</h1>
+            <p>Découvrez les meilleurs jeux pour petits et grands, livrés chez vous en 48h.</p>
+            <a href="#" class="btn">Voir les nouveautés</a>
+        </div>
+    </header>
+
+    <!-- Section Produits -->
+    <section class="products">
+        <h2>Nos jeux best-sellers</h2>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="Jeu1.jpg" alt="Azul Duel">
+                <h3>Azul Duel</h3>
+                <p>Pour de beaux affrontements en duo</p>
+                <span class="price">24.90 €</span>
+            </div>
+
+            <div class="product-card">
+                <img src="Jeu2.jpg" alt="Terraforming Mars">
+                <h3>Terraforming Mars</h3>
+                <p>Un classique incontournable de la stratégie</p>
+                <span class="price">89.90 €</span>
+            </div>
+
+            <div class="product-card">
+                <img src="Jeu3.jpg" alt="Canvas">
+                <h3>Canvas</h3>
+                <p>Un jeu à jouer en famille</p>
+                <span class="price">34.90 €</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Ludoshop – Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        // Menu responsive
+        const menuBtn = document.querySelector(".menu-btn");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+
+</body>
+</html>
